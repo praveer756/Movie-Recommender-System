@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual env
+movie_env/
+
+# Model artifacts
+models/v1/*.joblib
+models/v1/*.json
+
+# Pytest
+.pytest_cache/
+
+# IDE
+.vscode/
+
+# Streamlit
+.streamlit/
+movie_env/
+similarity.pkl
