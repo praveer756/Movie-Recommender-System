@@ -2,9 +2,6 @@
 __pycache__/
 *.py[cod]
 
-# Virtual env
-movie_env/
-
 # Model artifacts
 models/v1/*.joblib
 models/v1/*.json
@@ -17,5 +14,9 @@ models/v1/*.json
 
 # Streamlit
 .streamlit/
+
+# Virtual env
 movie_env/
-similarity.pkl
+
+#env
+.env/
